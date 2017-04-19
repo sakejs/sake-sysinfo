@@ -1,0 +1,37 @@
+{
+  "name": "sake-sysinfo",
+  "version": "0.1.2",
+  "description": "Adds task to print basic system information",
+  "main": "lib/index.js",
+  "module": "lib/index.mjs",
+  "files": [
+    "src/",
+    "lib/"
+  ],
+  "scripts": {
+    "build": "sake build",
+    "prepublishOnly": "sake build",
+    "pretest": "sake build",
+    "test": "sake build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakejs/sake-sysinfo.git"
+  },
+  "keywords": ["sake", "sakejs", "build", "sysinfo", "uname"],
+  "author": "Hanzo, Inc. <hi@hanzo.io",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/sakejs/sake-sysinfo/issues"
+  },
+  "homepage": "https://github.com/sakejs/sake-sysinfo#readme",
+  "devDependencies": {
+    "coffee-script": "1.12.5",
+    "sake-bundle": "0.4.15",
+    "sake-cli": "0.4.4",
+    "sake-outdated": "0.1.20",
+    "sake-publish": "0.1.12",
+    "sake-test": "0.1.4",
+    "sake-version": "0.1.18"
+  }
+}
