@@ -1,6 +1,6 @@
 {
   "name": "sake-sysinfo",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Adds task to print basic system information",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
@@ -18,7 +18,13 @@
     "type": "git",
     "url": "git+https://github.com/sakejs/sake-sysinfo.git"
   },
-  "keywords": ["sake", "sakejs", "build", "sysinfo", "uname"],
+  "keywords": [
+    "sake",
+    "sakejs",
+    "build",
+    "sysinfo",
+    "uname"
+  ],
   "author": "Hanzo, Inc. <hi@hanzo.io",
   "license": "BSD-3-Clause",
   "bugs": {
